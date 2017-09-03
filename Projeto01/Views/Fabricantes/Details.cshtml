@@ -27,6 +27,8 @@
     </div>
 </div>
 
+@Html.Partial("~/Views/Produtos/_PorFabricante.cshtml", Model.Produtos.ToList())
+
 @section ScriptPage {
     <script type="text/javascript">
         $(document).ready(function () {
