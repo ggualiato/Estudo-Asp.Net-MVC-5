@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Projeto01.Models.Categoria>
+﻿@model IEnumerable<Modelo.Tabelas.Categoria>
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -23,18 +23,15 @@
                     <th>
                         @Html.DisplayNameFor(model => model.CategoriaId)
                     </th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>
+                    <th>  
                         @Html.DisplayNameFor(model => model.Nome)
                     </th>
                     <th></th>
                 </tr>
+            </thead>
+            <tbody>
                 @foreach (var item in Model)
-            {
+                {
                     <tr>
                         <td>
                             @Html.DisplayFor(modelItem => item.CategoriaId)
@@ -43,7 +40,7 @@
                             @Html.DisplayFor(modelItem => item.Nome)
                         </td>
                         <td>
-                            @Html.ActionLink("Alterar", "Edit", new { id = item.CategoriaId}) |
+                            @Html.ActionLink("Alterar", "Edit", new { id = item.CategoriaId}) | 
                             @Html.ActionLink("Detalhes", "Details", new { id = item.CategoriaId }) |
                             @Html.ActionLink("Eliminar", "Delete", new { id = item.CategoriaId })
                         </td>
@@ -53,12 +50,12 @@
         </table>
     </div>
     <div class="panel-footer panel-info">
-        @Html.ActionLink("Registrar uma nova CATEGORIA", "Create", null, new { @class = "btn btn-sucess" })
+        @Html.ActionLink("Registrar uma nova CATEGORIA", "Create", null, new { @class = "btn btn-success" })
     </div>
 </div>
 
 @section styles{
-    <link href="@Url.Content("~/content/DataTables/css/dataTables.bootstrap.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/DataTables/css/dataTables.bootstrap.css")" rel="stylesheet" />
 }
 
 @section ScriptPage {

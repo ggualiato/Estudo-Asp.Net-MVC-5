@@ -1,0 +1,5 @@
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Modelo\bin\Debug\Modelo.dll
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Modelo\bin\Debug\Modelo.pdb
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Modelo\obj\Debug\Modelo.dll
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Modelo\obj\Debug\Modelo.pdb

@@ -1,0 +1,12 @@
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Persistencia\bin\Debug\Persistencia.dll.config
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Persistencia\bin\Debug\Persistencia.dll
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Persistencia\bin\Debug\Persistencia.pdb
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Persistencia\bin\Debug\EntityFramework.dll
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Persistencia\bin\Debug\EntityFramework.SqlServer.dll
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Persistencia\bin\Debug\Modelo.dll
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Persistencia\bin\Debug\Modelo.pdb
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Persistencia\bin\Debug\EntityFramework.xml
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Persistencia\bin\Debug\EntityFramework.SqlServer.xml
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Persistencia\obj\Debug\Persistencia.csprojResolveAssemblyReference.cache
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Persistencia\obj\Debug\Persistencia.dll
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Persistencia\obj\Debug\Persistencia.pdb

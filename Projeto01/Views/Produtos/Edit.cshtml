@@ -1,4 +1,4 @@
-﻿@model Projeto01.Models.Produto
+﻿@model Modelo.Cadastros.Produto
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -41,7 +41,8 @@
                 </div>
                 <div class="form-group">
                     <div class="col-md-offset-2 col-md-10">
-                        <input type="submit" value="Gravar alterações" class="btn btn-default" />
+                        <input type="submit" value="Gravar alterações" class="btn btn-info" />
+                        @Html.ActionLink("Retornar para a listagem de PRODUTOS", "Index", null, new { @class = "btn btn-warning" })
                     </div>
                 </div>
             </div>
@@ -50,6 +51,8 @@
 }
 
 @section ScriptPage {
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             $('li').removeClass("active");

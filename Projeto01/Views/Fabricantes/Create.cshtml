@@ -1,20 +1,18 @@
-﻿@model Projeto01.Models.Fabricante
+﻿@model Modelo.Cadastros.Fabricante
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Registrando um NOVO FABRICANTE";
 }
 
-
-
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-
     <div class="panel panel-primary">
         <div class="panel-heading">
             Registro de um NOVO FABRICANTE
         </div>
+
         <div class="panel-body">
             <div class="form-horizontal">
                 @Html.ValidationSummary(true, "", new { @class = "text-danger" })
@@ -29,18 +27,13 @@
         </div>
 
         <div class="panel-footer panel-info">
-
-
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Adicionar fabricante" class="btn btn-default" />
+                <input type="submit" value="Adicionar fabricante" class="btn btn-danger" />
                 @Html.ActionLink("Retornar para a listagem de FABRICANTES", "Index", null, new { @class = "btn btn-warning" })
             </div>
-
             <br />
             <br />
         </div>
-
-
     </div>
 }
 
@@ -54,5 +47,4 @@
             $('#liFabricantes').addClass("active");
         });
     </script>
-
 }

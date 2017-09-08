@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Projeto01.Models.Fabricante>
+﻿@model IEnumerable<Modelo.Cadastros.Fabricante>
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -16,6 +16,7 @@
     <div class="panel-heading">
         Relação de FABRICANTES registrados
     </div>
+
     <div class="panel-body">
         <table class="table table-striped table-hover">
             <thead>
@@ -23,21 +24,15 @@
                     <th>
                         @Html.DisplayNameFor(model => model.FabricanteId)
                     </th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-
-
-                <tr>
                     <th>
                         @Html.DisplayNameFor(model => model.Nome)
                     </th>
                     <th></th>
                 </tr>
-
+            </thead>
+            <tbody>
                 @foreach (var item in Model)
-            {
+                {
                     <tr>
                         <td>
                             @Html.DisplayFor(modelItem => item.FabricanteId)
@@ -55,8 +50,9 @@
             </tbody>
         </table>
     </div>
+
     <div class="panel-footer panel-info">
-        @Html.ActionLink("Registrar um novo FABRICANTE", "Create", null, new { @class = "btn btn-sucess" })
+        @Html.ActionLink("Registrar um novo FABRICANTE", "Create", null, new { @class = "btn btn-success" })
     </div>
 </div>
 

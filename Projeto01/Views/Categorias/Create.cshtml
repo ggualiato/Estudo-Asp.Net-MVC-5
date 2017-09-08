@@ -1,4 +1,4 @@
-﻿@model Projeto01.Models.Categoria
+﻿@model Modelo.Tabelas.Categoria
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -8,11 +8,11 @@
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-
     <div class="panel panel-primary">
         <div class="panel-heading">
             Registro de uma NOVA CATEGORIA
         </div>
+
         <div class="panel-body">
             <div class="form-horizontal">
                 @Html.ValidationSummary(true, "", new { @class = "text-danger" })
@@ -28,19 +28,17 @@
 
         <div class="panel-footer panel-info">            
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Adicionar categoria" class="btn btn-default" />
+                <input type="submit" value="Adicionar categoria" class="btn btn-danger"/>
                 @Html.ActionLink("Retornar para a listagem de CATEGORIAS", "Index", null, new { @class = "btn btn-warning" })
             </div>
-
             <br />
             <br />
         </div>
-
     </div>
 }
 
 @section ScriptPage {
-    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
     <script src="~/Scripts/jquery.validate.min.js"></script>
     <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
     <script type="text/javascript">

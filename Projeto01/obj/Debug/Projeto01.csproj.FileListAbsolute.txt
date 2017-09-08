@@ -56,12 +56,14 @@ E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\Ent
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\EntityFramework.SqlServer.dll
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\Microsoft.Web.Infrastructure.dll
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\Modelo.dll
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\System.Web.Helpers.dll
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\System.Web.Mvc.dll
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\System.Web.Razor.dll
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\System.Web.Webpages.Deployment.dll
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\System.Web.Webpages.dll
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\System.Web.Webpages.Razor.dll
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\Modelo.pdb
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\EntityFramework.xml
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\EntityFramework.SqlServer.xml
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml

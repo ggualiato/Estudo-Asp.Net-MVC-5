@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Linq;
 using System.Web.Mvc;
 using System.Data.Entity;
+using System.Net;
 
 using Projeto01.Contexts;
-using Projeto01.Models;
-using System.Net;
+using Modelo.Tabelas;
+using System.Xml.Linq;
 
 namespace Projeto01.Controllers
 {
