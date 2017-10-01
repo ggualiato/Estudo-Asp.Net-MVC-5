@@ -1,4 +1,5 @@
 ﻿using Modelo.Cadastros;
+
 using Persistencia.DAL.Cadastros;
 
 using System.Linq;

@@ -55,8 +55,12 @@ namespace Projeto01.Controllers
                 {
                     produtoServico.GravarProduto(produto);
 
+                    PopularViewBag(produto);
+
                     return RedirectToAction("Index");
                 }
+
+                PopularViewBag(produto);
 
                 return View(produto);
             }

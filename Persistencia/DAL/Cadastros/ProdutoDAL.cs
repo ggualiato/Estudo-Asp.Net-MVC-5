@@ -1,7 +1,7 @@
-﻿using Persistencia.Contexts;
-
-using System.Linq;
+﻿using System.Linq;
 using System.Data.Entity;
+
+using Persistencia.Contexts;
 
 using Modelo.Cadastros;
 
@@ -20,7 +20,7 @@ namespace Persistencia.DAL.Cadastros
         {
             return context.Produtos.Where(p => p.ProdutoId == id).Include(c => c.Categoria).Include(f => f.Fabricante).First();
         }
-
+        
         public void GravarProduto(Produto produto)
         {
             if (produto.ProdutoId == null)
