@@ -13,50 +13,32 @@
             Alteração dos dados de um PRODUTO
         </div>
         <div class="panel-body">
-            <div class="form-horizontal">
-                <h4>Produto</h4>
-                <hr />
-                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-                @Html.HiddenFor(model => model.ProdutoId)
-                <div class="form-group">
-                    @Html.LabelFor(model => model.Nome, htmlAttributes: new { @class = "control-label col-md-2" })
-                    <div class="col-md-10">
-                        @Html.EditorFor(model => model.Nome, new { htmlAttributes = new { @class = "form-control" } })
-                        @Html.ValidationMessageFor(model => model.Nome, "", new { @class = "text-danger" })
-                    </div>
-                </div>
-                <div class="form-group">
-                    @Html.LabelFor(model => model.CategoriaId, "CategoriaId", htmlAttributes: new { @class = "control-label col-md-2" })
-                    <div class="col-md-10">
-                        @Html.DropDownList("CategoriaId", null, htmlAttributes: new { @class = "form-control" })
-                        @Html.ValidationMessageFor(model => model.CategoriaId, "", new { @class = "text-danger" })
-                    </div>
-                </div>
-                <div class="form-group">
-                    @Html.LabelFor(model => model.FabricanteId, "FabricanteId", htmlAttributes: new { @class = "control-label col-md-2" })
-                    <div class="col-md-10">
-                        @Html.DropDownList("FabricanteId", null, htmlAttributes: new { @class = "form-control" })
-                        @Html.ValidationMessageFor(model => model.FabricanteId, "", new { @class = "text-danger" })
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-md-offset-2 col-md-10">
-                        <input type="submit" value="Gravar alterações" class="btn btn-info" />
-                        @Html.ActionLink("Retornar para a listagem de PRODUTOS", "Index", null, new { @class = "btn btn-warning" })
-                    </div>
-                </div>
+            @Html.Partial("~/Views/Produtos/_PartialEditContentPanel.cshtml", Model)
+        </div>
+        <div class="panel-footer panel-info">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Gravar alterações" class="btn btn-info" />
+                @Html.ActionLink("Retornar para a listagem de PRODUTOS", "Index", null, new { @class = "btn btn-warning" })
             </div>
+            <br />
+            <br />
         </div>
     </div>
 }
 
+@section styles{
+    <link href="~/Scripts/jquery-ui-1.12.1.custom/jquery-ui.css" rel="stylesheet" />
+}
+
 @section ScriptPage {
-    <script src="~/Scripts/jquery.validate.min.js"></script>
-    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
-    <script type="text/javascript">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.1.custom/datepicker-pt-BR.js"></script>
+    <script>
         $(document).ready(function () {
             $('li').removeClass("active");
             $('#liProdutos').addClass("active");
+            $("#datepicker").datepicker();
         });
     </script>
 }
