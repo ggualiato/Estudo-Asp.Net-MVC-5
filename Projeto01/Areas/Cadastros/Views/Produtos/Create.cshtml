@@ -1,0 +1,51 @@
+﻿@model Modelo.Cadastros.Produto
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Registrando um NOVO PRODUTO";
+
+}
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            Registro de um NOVO PRODUTO
+        </div>
+        <div class="panel-body">
+            @*@Html.Partial("~/Views/Produtos/_PartialEditContentPanel.cshtml", Model)*@
+            @Html.Partial("~/Areas/Cadastros/Views/Produtos/_PartialEditContentPanel.cshtml", Model)
+        </div>
+        <div class="panel-footer panel-info">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Adicionar Produto" class="btn btn-danger" />
+                @Html.ActionLink("Retornar para a listagem de PRODUTOS", "Index", null, new { @class = "btn btn-warning" })
+            </div>
+            <br />
+            <br />
+        </div>
+    </div>
+}
+
+@section styles{
+    <link href="~/Scripts/jquery-ui-1.12.1.custom/jquery-ui.css" rel="stylesheet" />
+}
+
+@section ScriptPage {
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.1.custom/datepicker-pt-BR.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('li').removeClass("active");
+            $('#liProdutos').addClass("active");
+            $("#datepicker").datepicker();
+        });
+    </script>
+}
