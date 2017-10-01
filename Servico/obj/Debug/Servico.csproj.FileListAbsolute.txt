@@ -8,5 +8,6 @@ E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Servico\bin\Debug
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Servico\bin\Debug\Persistencia.dll.config
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Servico\bin\Debug\EntityFramework.xml
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Servico\obj\Debug\Servico.csprojResolveAssemblyReference.cache
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Servico\obj\Debug\Servico.csproj.CoreCompileInputs.cache
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Servico\obj\Debug\Servico.dll
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Servico\obj\Debug\Servico.pdb

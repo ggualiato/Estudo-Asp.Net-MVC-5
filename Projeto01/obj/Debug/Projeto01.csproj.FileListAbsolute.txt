@@ -57,13 +57,16 @@ E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\Ent
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\Microsoft.Web.Infrastructure.dll
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\Modelo.dll
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\Servico.dll
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\System.Web.Helpers.dll
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\System.Web.Mvc.dll
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\System.Web.Razor.dll
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\System.Web.Webpages.Deployment.dll
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\System.Web.Webpages.dll
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\System.Web.Webpages.Razor.dll
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\Persistencia.dll
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\Modelo.pdb
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\Servico.pdb
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\EntityFramework.xml
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\EntityFramework.SqlServer.xml
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
@@ -73,6 +76,9 @@ E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\Sys
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\System.Web.Webpages.Razor.xml
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\System.Web.Helpers.xml
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\System.Web.Mvc.xml
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\Persistencia.pdb
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\bin\Persistencia.dll.config
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\obj\Debug\Projeto01.csprojResolveAssemblyReference.cache
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\obj\Debug\Projeto01.csproj.CoreCompileInputs.cache
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\obj\Debug\Projeto01.dll
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Projeto01\obj\Debug\Projeto01.pdb

@@ -8,5 +8,8 @@ E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Persistencia\bin\
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Persistencia\bin\Debug\EntityFramework.xml
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Persistencia\bin\Debug\EntityFramework.SqlServer.xml
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Persistencia\obj\Debug\Persistencia.csprojResolveAssemblyReference.cache
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Persistencia\obj\Debug\Persistencia.csproj.CoreCompileInputs.cache
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Persistencia\obj\Debug\Persistencia.dll
 E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Persistencia\obj\Debug\Persistencia.pdb
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Persistencia\obj\Debug\Persistencia.Migrations.InitialCreate.resources
+E:\Documentos\Visual Studio 2017\Projects\Estudo-Asp.Net-MVC-5\Persistencia\obj\Debug\Persistencia.csproj.GenerateResource.Cache
